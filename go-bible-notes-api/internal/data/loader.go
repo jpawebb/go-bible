@@ -1,1 +1,1 @@
-// Chunk bible data into the Postrgres database
+package data

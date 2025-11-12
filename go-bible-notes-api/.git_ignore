@@ -1,0 +1,18 @@
+# Operating System/IDE Files
+.DS_Store
+*.sublime-project
+.vscode/
+
+# Build Artifacts
+*.exe
+*.bin
+*.o 
+
+# Database Artifacts
+*.db 
+
+# Go Dependencies (if using vendoring)
+/vendor/
+
+# Test cache
+.test/

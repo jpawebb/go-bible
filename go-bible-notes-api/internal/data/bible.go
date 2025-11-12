@@ -1,3 +1,7 @@
+package data
+
+import "time"
+
 type Book struct {
     ID   			int
     Name 			string
@@ -6,12 +10,12 @@ type Book struct {
 
 
 type Verse struct {
-    ID            	int
-    BookID        	int
-    ChapterNumber 	int
-    VerseNumber   	int
-    KJVText       	string
-    ESVText       	string
+    ID            int
+    BookID        int
+    ChapterNumber int
+    VerseNumber   int
+    TranslationID int
+    Text          string
 }
 
 
